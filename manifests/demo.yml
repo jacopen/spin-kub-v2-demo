@@ -9,6 +9,8 @@ data:
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
+  annotations:
+    foobar: baz
   name: spinnaker-demo
   namespace: default
   labels:
