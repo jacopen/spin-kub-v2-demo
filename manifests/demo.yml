@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: jacopen/spin-kub-v2-demo
+        image: jacopen/spin-kub-v2-demo:failed
         ports:
         - containerPort: 8000
         readinessProbe:
